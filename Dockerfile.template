@@ -11,7 +11,7 @@ RUN pip install -r /requirements.txt
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 
-CMD ["python", "gpio.py"]
+CMD ["python", "foosball2.py"]
 
 EXPOSE 8000
 
